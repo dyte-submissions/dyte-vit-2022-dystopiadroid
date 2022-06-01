@@ -18,6 +18,12 @@ To generate pull request for the repositories whose dependency have lower versio
   npx pkg-version-tracker -update -i <CSV-file> <dep@version>
 ```
 
+Make sure that you create an environment variable named **MY_API_KEY** that holds the github auth token
+
+```bash
+  export MY_API_KEY=<github-token>
+```
+
   ![image](https://user-images.githubusercontent.com/83747415/171467807-ab295c22-3da4-46b6-ab02-7c44a74a6074.png)
   
   ![image](https://user-images.githubusercontent.com/83747415/171468130-8870eb4f-52dc-4a04-b922-d69dbd0312f0.png)
