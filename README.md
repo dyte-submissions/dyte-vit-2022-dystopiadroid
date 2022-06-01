@@ -1,5 +1,5 @@
 
-# Dyte-Task (pkg-version-tracer)
+# Dyte-Task (pkg-version-tracker)
 
 #### *-------------------------------------Will be able on npm repository tomorrow evening (2nd June 2022)----------------------------------------------*
 
