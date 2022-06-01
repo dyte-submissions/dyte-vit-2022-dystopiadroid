@@ -17,7 +17,13 @@ To generate pull request for the repositories whose dependency have lower versio
 ```bash
   npx pkg-version-tracker -update -i <CSV-file> <dep@version>
 ```
-    
+
+  ![image](https://user-images.githubusercontent.com/83747415/171467807-ab295c22-3da4-46b6-ab02-7c44a74a6074.png)
+  
+  ![image](https://user-images.githubusercontent.com/83747415/171468130-8870eb4f-52dc-4a04-b922-d69dbd0312f0.png)
+  
+ **Pull Request :** https://github.com/dyte-in/javascript-sample-app/pull/390 
+  
 ## Github APIs used
 
 #### Create a fork
@@ -99,6 +105,7 @@ To generate pull request for the repositories whose dependency have lower versio
 | `body` | `string` | **Required**. Contents of the pull request|
 | `head` | `string` | **Required**. The name of the branch where your changes are implemented |
 | `base` | `string` | **Required**. The name of the branch you want the changes pulled into |
+
 
 
 
