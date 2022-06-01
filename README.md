@@ -1,6 +1,8 @@
 
 # Dyte-Task (pkg-version-tracer)
 
+#### *-------------------------------------Will be able on npm repository tomorrow evening (2nd June 2022)----------------------------------------------*
+
 CLI tool to verify/update the current version of a dependency used in a public/private github repository mentioned in a CSV file
 
 
@@ -27,6 +29,8 @@ Make sure that you create an environment variable named **MY_API_KEY** that hold
   ![image](https://user-images.githubusercontent.com/83747415/171467807-ab295c22-3da4-46b6-ab02-7c44a74a6074.png)
   
   ![image](https://user-images.githubusercontent.com/83747415/171468130-8870eb4f-52dc-4a04-b922-d69dbd0312f0.png)
+  
+  ![image](https://user-images.githubusercontent.com/83747415/171471317-f008feef-6dab-4d2d-bccd-1418aef9295e.png)
   
  **Pull Request :** https://github.com/dyte-in/javascript-sample-app/pull/390 
  
