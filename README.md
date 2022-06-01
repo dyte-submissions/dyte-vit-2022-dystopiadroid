@@ -29,6 +29,8 @@ Make sure that you create an environment variable named **MY_API_KEY** that hold
   ![image](https://user-images.githubusercontent.com/83747415/171468130-8870eb4f-52dc-4a04-b922-d69dbd0312f0.png)
   
  **Pull Request :** https://github.com/dyte-in/javascript-sample-app/pull/390 
+ 
+ **NOTE :** Since I deleted the my package from npm once today, I'll be able to push it again after 24 hours only. So I'll publish my package to npm repository tomorrow. 
   
 ## Github APIs used
 
