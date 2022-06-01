@@ -1,23 +1,31 @@
 
-# Dyte-Task (pkg-version-tracker)
+# Dyte-Task (pkg-ver-tracker)
 
-#### *-------------------------------------Will be able on npm repository tomorrow evening (2nd June 2022)----------------------------------------------*
+#### *-------------------------------------Edit : Now available on npm registry ----------------------------------------------*
 
 CLI tool to verify/update the current version of a dependency used in a public/private github repository mentioned in a CSV file
 
 
 ## Basic Usage
 
+ **https://www.npmjs.com/package/pkg-ver-tracker**
+
+To compare install the cli tool 
+
+```bash
+  npx pkg-ver-tracker 
+```
+
 To compare the version of dependency in the repository with respect to the specified dependency in the argument. 
 
 ```bash
-  npx pkg-version-tracker -i <CSV-file> <dep@version>
+  npx pkg-ver-tracker -i <CSV-file> <dep@version>
 ```
 
 To generate pull request for the repositories whose dependency have lower version with respect to the dependency in the argument. 
 
 ```bash
-  npx pkg-version-tracker -update -i <CSV-file> <dep@version>
+  npx pkg-ver-tracker -update -i <CSV-file> <dep@version>
 ```
 
 Make sure that you create an environment variable named **MY_API_KEY** that holds the github auth token
@@ -34,7 +42,19 @@ Make sure that you create an environment variable named **MY_API_KEY** that hold
   
  **Pull Request :** https://github.com/dyte-in/javascript-sample-app/pull/390 
  
- **NOTE :** Since I deleted the my package from npm once today, I'll be able to push it again after 24 hours only. So I'll publish my package to npm repository tomorrow. 
+ **NOTE :** My npm publishing got restricted for certain time that's why I was not able to put the pkg-ver-tracker tool here before 11:30 PM. 
+ 
+
+ 
+ ## Using my pkg-ver-tracker tool from npm registry
+ 
+  **https://www.npmjs.com/package/pkg-ver-tracker**
+ 
+ ![image](https://user-images.githubusercontent.com/83747415/171484378-3643262e-7de6-411f-8f34-621d67e580ee.png)
+
+ ![image](https://user-images.githubusercontent.com/83747415/171484553-7ba983fb-8364-4b4e-81e6-b0bbc9cc4170.png)
+
+ **Pull Request :** https://github.com/bala2509/Test/pull/21
   
 ## Github APIs used
 
