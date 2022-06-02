@@ -10,28 +10,41 @@ CLI tool to verify/update the current version of a dependency used in a public/p
 
  **https://www.npmjs.com/package/pkg-ver-tracker**
 
-To compare install the cli tool 
+**1) To compare install the cli tool**
 
 ```bash
   npx pkg-ver-tracker 
 ```
 
-To compare the version of dependency in the repository with respect to the specified dependency in the argument. 
+**2) To compare the version of dependency in the repository with respect to the specified dependency in the argument.** 
 
 ```bash
   npx pkg-ver-tracker -i <CSV-file> <dep@version>
 ```
 
-To generate pull request for the repositories whose dependency have lower version with respect to the dependency in the argument. 
+**3) Steps to generate personal access token from github :**
 
-```bash
-  npx pkg-ver-tracker -update -i <CSV-file> <dep@version>
-```
+      a) Click on your profile and go to settings.
 
-Make sure that you create an environment variable named **MY_API_KEY** that holds the github auth token
+      b) In the left sidebar click on developer settings.
+
+      c) Select personal access tokens.
+
+      d) Generate a new token and copy the token ID.
+
+
+**4) Make sure that you create an environment variable named **MY_API_KEY** that holds the github auth token**
 
 ```bash
   export MY_API_KEY=<github-token>
+```
+
+**5) To generate pull request for the repositories whose dependency have lower version with respect to the dependency in the argument**
+
+( **Note :** This will only work if you've set **MY_API_KEY** env variable equal to your github Personal access token as mentioned below. ) 
+
+```bash
+  npx pkg-ver-tracker -update -i <CSV-file> <dep@version>
 ```
 
   ![image](https://user-images.githubusercontent.com/83747415/171467807-ab295c22-3da4-46b6-ab02-7c44a74a6074.png)
